@@ -7,25 +7,38 @@ MacKerell lab the method has been applied primarily to RNA, though the approach 
 applicable to performing GCMC solute sampling in a range of systems including proteins and
 bilayers. 
 
-Lakkaraju, S.K., Raman, E.P., Yu, W., and MacKerell, A.D., Jr., “Sampling of Organic Solutes in 
+### Source code available in directory: gcmc_pme_source_code
+
+### Publications related to source code:
+
+- Lakkaraju, S.K., Raman, E.P., Yu, W., and MacKerell, A.D., Jr., “Sampling of Organic Solutes in 
 Aqueous and Heterogeneous Environments using Oscillating μex Grand Canonical-like Monte 
 Carlo-Molecular Dynamics Simulations,” Journal of Chemical Theory and Computing, 10: 2281–2290, 2014, 
 10.1021/ct500201y, PMC4053307
 
-Sun, D., Lakkaraju, K., Jo, S., and MacKerell, A.D., Jr., “Determination of Ionic Hydration Free 
+- Sun, D., Lakkaraju, K., Jo, S., and MacKerell, A.D., Jr., “Determination of Ionic Hydration Free 
 Energies with Grand Canonical Monte Carlo/Molecular Dynamics Simulations in Explicit Water,” 
 Journal of Chemical Theory and Computation, 14: 5290-5302, 2018, 10.1021/acs.jctc.8b00604, PMC6195813
 
-The scripts in this repository can be used to setup a GCMC-MD simulation to identify the
+# RNA-Mg-Predictor : Application of GCMC_PME code
+
+The scripts in this directory can be used to setup a GCMC-MD simulation to identify the
 Mg2+ and K+ binding sites in RNA molecules. It has been provided in the form to
 be applied to native states of RNA, however it has also been applied to study
 ion-atomsphere during the folding of RNA in the following articles.
 
-Kognole, A.A. and MacKerell, A.D., Jr., “Mg2+ Impacts the Twister Ribozyme through Push-Pull 
+### The two modifications to gcmc_pme code used in this application are:
+
+rna-mg-predictor/bin/mod_swap_gcmc (Source: gcmc_pme_source_code/gcmc_pme_with_hard_limit_option_only_ins-del) 
+rna-mg-predictor/bin/mod_equi_gcmc (Source: gcmc_pme_source_code/gcmc_pme_with_hard_limit_option_only_rot-tra)
+
+### Publications related to rna-mg-predictor scripts:
+
+- Kognole, A.A. and MacKerell, A.D., Jr., “Mg2+ Impacts the Twister Ribozyme through Push-Pull 
 Stabilization of Non-Sequential Phosphate Pairs,” Biophysical Journal, 6: 1424-1437, 2020, 
 10.1016/j.bpj.2020.01.021, PMC7091459
 
-Kognole, A.A. and MacKerell, A.D., Jr., “Contributions and competition of Mg2+ and K+ 
+- Kognole, A.A. and MacKerell, A.D., Jr., “Contributions and competition of Mg2+ and K+ 
 in folding and stabilization of the Twister Ribozyme,” RNA, 26:1704-1715, 2020, 
 10.1261/rna.076851.120, PMC7566569
 
