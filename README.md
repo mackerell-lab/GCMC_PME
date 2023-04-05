@@ -1,20 +1,35 @@
-# rna-mg-predictor
+# GCMC_PME
 
-This set of scripts can be used to setup a GCMC-MD simulation to identify the
+The oscillating chemical potential GCMC method was extended to include treatment
+of long-range electrostatic interactions improving the treatment of ions using the
+GCMC approach. Included are executables as well as the original code. To date, in the 
+MacKerell lab the method has been applied primarily to RNA, though the approach is 
+applicable to performing GCMC solute sampling in a range of systems including proteins and
+bilayers. 
+
+Lakkaraju, S.K., Raman, E.P., Yu, W., and MacKerell, A.D., Jr., “Sampling of Organic Solutes in 
+Aqueous and Heterogeneous Environments using Oscillating μex Grand Canonical-like Monte 
+Carlo-Molecular Dynamics Simulations,” Journal of Chemical Theory and Computing, 10: 2281–2290, 2014, 
+10.1021/ct500201y, PMC4053307
+
+Sun, D., Lakkaraju, K., Jo, S., and MacKerell, A.D., Jr., “Determination of Ionic Hydration Free 
+Energies with Grand Canonical Monte Carlo/Molecular Dynamics Simulations in Explicit Water,” 
+Journal of Chemical Theory and Computation, 14: 5290-5302, 2018, 10.1021/acs.jctc.8b00604, PMC6195813
+
+The scripts in this repository can be used to setup a GCMC-MD simulation to identify the
 Mg2+ and K+ binding sites in RNA molecules. It has been provided in the form to
-be applied to native states of RNA, however it was originally designed to study
-ion-atomsphere during the folding of RNA in following articles.
+be applied to native states of RNA, however it has also been applied to study
+ion-atomsphere during the folding of RNA in the following articles.
 
-Kognole AA, MacKerell AD Jr., "Mg2+ Impacts the Twister Ribozyme Through Push-
-Pull Stabilization of Non-Sequential Phosphate Pairs" Biophysical J. (2020)
-118(6): 1424-1437 https://doi.org/10.1016/j.bpj.2020.01.021
+Kognole, A.A. and MacKerell, A.D., Jr., “Mg2+ Impacts the Twister Ribozyme through Push-Pull 
+Stabilization of Non-Sequential Phosphate Pairs,” Biophysical Journal, 6: 1424-1437, 2020, 
+10.1016/j.bpj.2020.01.021, PMC7091459
 
-Kognole AA,MacKerell AD Jr., "Contributions and Competition of Mg2+ and K+ in
-Folding and Stabilization of the Twister Ribozyme" RNA (2020)
-https://doi.org/10.1261/rna.076851.120
+Kognole, A.A. and MacKerell, A.D., Jr., “Contributions and competition of Mg2+ and K+ 
+in folding and stabilization of the Twister Ribozyme,” RNA, 26:1704-1715, 2020, 
+10.1261/rna.076851.120, PMC7566569
 
-
-## You need to have
+## Additional packages that are required for the RNA example.
 
 - GROMACS (https://github.com/gromacs/gromacs)
 - OpenMM with CUDA (conda install -c conda-forge openmm)
