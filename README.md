@@ -29,8 +29,9 @@ ion-atomsphere during the folding of RNA in the following articles.
 
 ### The two modifications to gcmc_pme code used in this application are:
 
-rna-mg-predictor/bin/mod_swap_gcmc (Source: gcmc_pme_source_code/gcmc_pme_with_hard_limit_option_only_ins-del) 
-rna-mg-predictor/bin/mod_equi_gcmc (Source: gcmc_pme_source_code/gcmc_pme_with_hard_limit_option_only_rot-tra)
+- rna-mg-predictor/bin/**mod_swap_gcmc** (Source: gcmc_pme_source_code/gcmc_pme_with_hard_limit_option_only_ins-del) 
+
+- rna-mg-predictor/bin/**mod_equi_gcmc** (Source: gcmc_pme_source_code/gcmc_pme_with_hard_limit_option_only_rot-tra)
 
 ### Publications related to rna-mg-predictor scripts:
 
