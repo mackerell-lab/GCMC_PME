@@ -1,4 +1,6 @@
 #!/bin/bash
+#  © Copyright 2019 – University of Maryland, Baltimore. All Rights Reserved.
+#  Abhishek A. Kognole and Alexander D. MacKerell Jr.
 
 cwd=`pwd`
 if [ -e setenv ]; then source setenv; else ./setenv.sh; fi

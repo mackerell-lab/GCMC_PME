@@ -1,1 +1,0 @@
-hard limit: the gcmc moves insertion or deletion are rejected if the concentration of the solute has reached the specified maximum or minimum value respectively.

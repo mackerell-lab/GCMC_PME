@@ -1,3 +1,6 @@
+#  © Copyright 2019 – University of Maryland, Baltimore. All Rights Reserved.
+#  Abhishek A. Kognole and Alexander D. MacKerell Jr.
+
 import MDAnalysis as mda
 
 u = mda.Universe('system.pdb')

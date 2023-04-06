@@ -49,7 +49,14 @@ in folding and stabilization of the Twister Ribozyme,” RNA, 26:1704-1715, 2020
 - OpenMM with CUDA (conda install -c conda-forge openmm)
 - Plumed plugin for OpenMM (conda install -c conda-forge openmm-plumed)
 - ParmEd to utilize the GROMACS formats in OpenMM (conda install -c omnia parmed)
-- MMTSB Toolset to manupulate the PDB files (installed on fly from github)
-- MDAnalysis to run clustering analysis ( conda install -c conda-forge mdanalysis)
+- MMTSB Toolset to manupulate the PDB files (installed on-the-fly from github)
+- MDAnalysis to run clustering analysis (conda install -c conda-forge mdanalysis)
+
+### To run simply run the bash scripts in the order:
+
+1. ``01_setup.sh``
+2. ``02_run.sh``
+3. ``03_analyze.sh``
+4. ``04_compress.sh``
 
 

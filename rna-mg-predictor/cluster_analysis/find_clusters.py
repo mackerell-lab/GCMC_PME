@@ -1,3 +1,6 @@
+#  © Copyright 2019 – University of Maryland, Baltimore. All Rights Reserved.
+#  Abhishek A. Kognole and Alexander D. MacKerell Jr.
+
 ## This script performs a clustering analysis on Mg binding site
 ## Inputs - a pdb with all MG coordinates merged into single pdb file
 ## Outputs - 1. cluster_positions.txt

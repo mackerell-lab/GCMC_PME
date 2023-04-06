@@ -1,4 +1,7 @@
 #!/bin/bash
+#  © Copyright 2019 – University of Maryland, Baltimore. All Rights Reserved.
+#  Abhishek A. Kognole and Alexander D. MacKerell Jr.
+
 # This script screens the frames from dcds at each cycle in all the runs
 # Collects the positions of MG atoms and performs clustering analysis. 
 # Uses MDAnalysis module

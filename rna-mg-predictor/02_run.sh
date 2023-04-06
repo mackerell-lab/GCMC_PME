@@ -1,7 +1,8 @@
 #!/bin/bash
+#  © Copyright 2019 – University of Maryland, Baltimore. All Rights Reserved.
+#  Abhishek A. Kognole and Alexander D. MacKerell Jr.
 
 # Use this script to submit jobs on cluster that uses schedular like SLURM 
-
 # If you are running locally, just run job.sh scripts in each run directory. 
 
 totruns=5

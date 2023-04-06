@@ -1,4 +1,7 @@
-# writes temporary pdb files for clustering purposes
+#  © Copyright 2019 – University of Maryland, Baltimore. All Rights Reserved.
+#  Abhishek A. Kognole and Alexander D. MacKerell Jr.
+
+# This script writes temporary pdb files for clustering purposes
 
 import MDAnalysis
 from MDAnalysis.analysis import align
