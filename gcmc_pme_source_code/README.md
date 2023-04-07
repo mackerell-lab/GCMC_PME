@@ -1,7 +1,3 @@
-## What is hard limit option?
-
-The gcmc moves insertion or deletion are rejected if the concentration of the solute has reached the specified maximum or minimum value respectively.
-
 ## Versions available:
 
 1. **gcmc_pme** : standard GCMC code with PME
@@ -13,3 +9,7 @@ The gcmc moves insertion or deletion are rejected if the concentration of the so
 3. **gcmc_pme_with_hard_limit_option_only_ins-del** : standard GCMC code with PME + hard limit option turned on + only insert and delete for ions
 
 4. **gcmc_pme_with_hard_limit_option_only_rot-tra** : standard GCMC code with PME + hard limit option turned on + only translate and rotate for water + only translate for ions
+
+## What is the hard limit option?
+
+The gcmc insertion or deletion moves are rejected if the concentration of the solute has reached the specified maximum or minimum value, respectively.
